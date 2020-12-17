@@ -33,3 +33,22 @@ h3 {
     width: 100%;
 }
 
+/* Universal Flex Content */
+
+.flex-content {
+    display: flex;
+    padding: 0 1.5rem;
+}
+
+.flex-content .main-content {
+    width: 60%;
+    padding: 2rem 1.5rem 2rem 0;
+    border-right: 1px solid rgb(245, 245, 245);
+}
+
+.flex-content .supporting-content {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 2rem 0;
+}

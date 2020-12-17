@@ -52,3 +52,66 @@ h3 {
     width: 40%;
     padding: 2rem 0;
 }
+
+/* Universal Component - Content Image Box */
+
+.content-image-box {
+    display: flex;
+    padding: 1rem 0 1rem 1rem;
+    border-bottom: 1px solid rgb(245, 245, 245);
+}
+
+.content-image-box:first-child {
+    padding-top: 0;
+}
+
+.content-image-box:last-child {
+    padding-top: 0;
+    border-bottom: none;
+}
+
+.content-image-box .media-container {
+    width: 35%;
+}
+
+.content-image-box .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    padding: 0 0.75rem 0 1rem;
+}
+
+.content-image-box h4 {
+    padding-bottom: .5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.content-image-box p {
+    padding-bottom: .5rem;
+}
+
+.content-image-box .mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 859px) {
+    .content-image-box .desktop {
+        display: none;
+    }
+}
+
+.content-image-box .mobile {
+    display: block;
+}
+
+.content-image-box {
+    padding-left: 0;
+    border-bottom: none;
+}
+
+.content-image-box .media-container {
+    width: 100%;
+    }
+}

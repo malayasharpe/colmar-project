@@ -176,3 +176,49 @@ h3 {
     nav {
         display: none;
     }
+
+    /* Banner */
+
+    #banner {
+        background-color: rgb(219, 219, 219);
+    }
+
+    #banner .main-content {
+        border-right: none;
+    }
+
+    #banner .supporting-content {
+        justify-content: center;
+    }
+
+    #banner h3 {
+        padding-bottom: 2rem;
+        font-size: 2rem;
+    }
+
+    #banner p {
+        padding-bottom: 1.5rem;
+    }
+
+    #banner a {
+        padding: .5rem 0;
+        background-color: rgb(155, 155, 155);
+        text-align: center;
+        color: white;
+    }
+
+    @media only screen and (max-width: 770px)  {
+        #banner {
+            flex-direction: column;
+            padding: 0;
+        }
+    
+    #banner .main-content {
+        width: auto;
+        padding: 0;
+    }
+
+    #banner .supporting-content {
+        width: auto;
+        padding: 2rem 1rem;
+    }

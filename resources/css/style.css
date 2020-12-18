@@ -312,3 +312,37 @@ h3 {
     display: none;
 }
 
+/* Thesis */
+
+#thesis-section {
+    padding: 2rem 0;
+}
+
+#thesis-section .main-content {
+    padding-bottom: 0;
+}
+
+#thesis-section h3{
+    padding: .5rem 0;
+}
+
+@media only screen and (max-width: 895px) {
+    #thesis-section .main-content h3, #thesis-section .main-content p, #thesis-section .supporting-content {
+        display: none;
+    }
+}
+
+#thesis-section {
+    padding-bottom: 1.5rem;
+}
+
+#thesis-section .flex-content {
+    padding: 0;
+}
+
+#thesis-section .main-content {
+    width: 100%;
+    padding: 0;
+    margin-right: 0;
+}
+

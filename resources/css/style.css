@@ -260,3 +260,55 @@ h3 {
     padding: 1rem;
 }
 
+/* Courses */
+
+#courses-section {
+    padding: 2rem 3.5rem;
+    background-color: rgb(245, 245, 245);
+}
+
+.courses-row {
+    display: flex;
+}
+
+.course {
+    flex-basis: 33%;
+    margin: 1rem;
+    background-color: white;
+}
+
+.course .text-content {
+    padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.course h3, .course h4 {
+    padding-bottom: .5rem;
+}
+
+@media only screen and (max-width: 770px) {
+    #course-section {
+        padding: 2rem 1rem;
+        background-color: inherit;
+    }
+}
+
+.courses-row {
+    flex-direction: column;
+}
+
+.course {
+    margin: .25rem 0;
+}
+
+.course .text-content {
+    background-color: rgb(216, 216, 216);
+}
+
+.course h3 {
+    padding-bottom: 0;
+}
+
+.course .media-container, .course h4, .course p {
+    display: none;
+}
+

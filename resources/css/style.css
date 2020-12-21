@@ -209,10 +209,12 @@ h3 {
 
     #banner {
         background-color: lightgray;
+        width: 100%;
+        display: flex;
     }
 
     #banner .main-content {
-        border-right: none;
+        top: auto;
     }
 
     #banner .supporting-content {
@@ -225,7 +227,7 @@ h3 {
     }
 
     #banner p {
-        padding-bottom: 1.5rem;
+        bottom: 6px;
     }
 
     #banner a {

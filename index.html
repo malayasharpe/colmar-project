@@ -13,53 +13,50 @@
     <!--Header-->
     <header>
         <div class="desktop" id="logo"></div>
-        <img src="resources/images/ic-logo.svg"> <span><strong>COLMAR</strong>ACADEMY</span>
+        <img src="resources/css/images/ic-logo.svg"> <span><strong>COLMAR</strong>ACADEMY</span>
         </div>
         <nav>
-        <ul>
-            <li><a href="#">On campus</a></li>
-            <li><a href="#">Online</a></li>
-            <li><a href="#">For companies</a></li>
-            <li><a href="#">Sign in</a></li>
-        </ul>
+            <a href="#">On campus</a>
+            <a href="#">Online</a>
+            <a href="#">For companies</a>
+            <a href="#">Sign in</a>
         </nav>
     </div>
         <div class="mobile">
-			<ul>
-				<li><img src="resources/css/images/ic-logo.svg"></li>
-				<li><img src="resources/css/images/ic-on-campus.svg"></li>
-				<li><img src="resources/css/images/ic-online.svg"></li>
-				<li><img src="resources/css/images/ic-login.svg"></li>
-			</ul>
+                <img src="resources/css/images/ic-logo.svg">
+				<img src="resources/css/images/ic-on-campus.svg" alt="Campus programs">
+				<img src="resources/css/images/ic-online.svg" alt="Online programs">
+				<img src="resources/css/images/ic-login.svg" alt="Log in">
 		</div>
     </header>
 
     <!--Banner-->
-        <!-- Cover -->
-        <div class="cover">
-            <div class="left pic">
-              <img src="./images/banner.jpg" alt="">
-            </div>
-            <div class="right description">
-              <h1>Learn something new everyday</h1>
-              <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-              <a href=""><button type="button" name="button">Start learning</button></a>
-            </div>
-          </div>
-          
+    <div class="flex-content" id="banner">
+        <div class="media container main-content"><img src="resources/css/images/banner.jpg"></div>
+        <div class="supporting content">
+            <h1>Learn something new every day</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="start">Start here</a>
+    </div>
+    </div>
+
     <!--Information Section-->
     <div class="flex-content" id="information section">
         <div class="main-content">
             <div class="media-container"><img src="resources/css/images/information-main.jpg"></div>
             <h3>It doesn't hurt to keep practicing</h3>
-            <p>"I told my manager I wanted to learn design and shared ways it could be helpful in my current role. He responded right away, said, 'This is awesome,' and my company paid for the course."</p>
+            <p>"Curabitur vitae libero ipsum porttior consequat. Aliquam et commodo
+                lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed
+                consequat ex. Etiam eget magna laoreet efficitur dolo consequat,
+                tristique ligula."</p>
+            <h5>Emaunuel, Sr Strategist at Hiring.com</h5>
         </div>
         <div class="supporting-content">
         <div class="content-image-box">
             <div class="media-container"><img class="desktop" src="resources/css/images/information-orientation.jpg">
     <img class="mobile" src="resources/css/images/information-orientation-mobile.jpg"></div>
                 <div class="text-content">
-                    <h4>Orientatiion date</h4>
+                    <h3>Orientation date</h3>
                     <p>Tue 10/11 & Wed 10/12: 8am - 3pm</p><a href="#">Read more</a>
                 </div>
                 </div>
@@ -67,7 +64,7 @@
                     <div class="media-conttainer"><img class="desktop" src="resources/css/images/information-campus.jpg"> <img class="mobile" src="resources/css/images/information-campus-mobile.jpg">
                         <div class="text-content">
                             <h4>Our campus</h4>
-                        <p>Find which campus is close by you</p><a href="#">Read more</a>
+                        <p>Find a campus near you</p><a href="#">Read more</a>
                     </div>
                 </div>
                 <div class="content-image-box">
@@ -133,7 +130,7 @@
     <div class="flex-content">
         <div class="main-content">
             <div class="media-container">
-                <video controls="" src="resources/css/videos/thesis.mp4">Video could not be loaded.</video>
+                <video src="resources/css/videos/thesis.mp4" autoplay muted loop>Video could not be loaded.</video>
             </div>
             <h3>Reimagine urban transportation</h3>
             <p>"Curabitur vitae libero in ipsum portitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, effcitur dolor consequat, tristque ligula."</p>
@@ -158,8 +155,12 @@
 </div>
 
 <!--Foooter-->
-    <footer>
-        <span class="copyright"> © 2016 Colmar Academy. All rights reserved</span> <a href="#">Terms</a> <a href="#">Privacy</a>
-    </footer>
+<footer>
+    <h5>© 2016 Colmar Academy. All rights reserved</h5>
+    <nav class="legal">
+        <span>Terms</span>
+        <span>Privacy</span>
+    </nav>
+  </footer>
 </body>
 </html>

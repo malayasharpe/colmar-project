@@ -1,10 +1,10 @@
 /* Universal Style */
 
-body {
+html {
     font-size: 16px;
     background-color: #ffffff;
     font-family: 'Open sans' sans-serif;
-    color: #303030;
+    color: #01161e;
     line-height: 0;
     margin: 0;
     padding: 0;
@@ -14,26 +14,48 @@ body {
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: #01161e;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+
 }
 
 strong {
     font-weight: bold;
 }
 
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
 h2 {
-    padding-bottom: 1rem;
+    font-family: "Roboto", sans-serif;
+    padding: 2rem 0;
     text-align: center;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2.4rem;
     line-height: 2rem;
 }
 
 h3 {
+    font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 1rem;
     color: grey;
     text-transform: uppercase;
+}
+
+h5, footer span {
+    font-size: 0.8rem;
+    color: #01161e;
+}
+
+p {
+    line-height: 1.35rem;
+    padding: 0.5rem 0.5rem 0.5rem 0;
 }
 
 .media-container {
